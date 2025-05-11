@@ -658,7 +658,7 @@ input::placeholder {
 .form-input-icon:focus {
     fill: #4D5AE5;
 }
-.form-field {
+.form-field-field {
     margin-bottom: 16p;
 }
 .form-input-textarea {
