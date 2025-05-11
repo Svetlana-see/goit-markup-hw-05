@@ -534,8 +534,15 @@ input::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+
 }
-.footer-form-subscribe {
+/* .footer-form-subscribe {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -545,8 +552,8 @@ input::placeholder {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-}
-.butn-icon {
+} */
+.footer-form-butn {
     margin-left: 16px;
 }
 /* backdrop */
