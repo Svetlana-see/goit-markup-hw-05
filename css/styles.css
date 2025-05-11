@@ -603,12 +603,11 @@ input::placeholder {
 .popup-close-butn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.popup-close-butn-icon-icon:hover {
-    fill: #ffffff;
-}
+.popup-close-butn-icon-icon:hover, 
 .popup-close-butn-icon-icon:focus {
     fill: #ffffff;
 }
+
 .popup-logo { 
     font-weight: 500;
     font-size: 16px;
@@ -658,10 +657,12 @@ input::placeholder {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:has(input:hover) .form-input-icon {
+/* .form-input:has(input:hover) .form-input-icon {
+    fill: #4D5AE5;
+} */
+input:focus+svg {
     fill: #4D5AE5;
 }
-
 .form-field-field {
     margin-bottom: 16px;
 }
