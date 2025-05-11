@@ -405,17 +405,22 @@
             <div class="footer-form">
                 <p class="footer-text-footer">Subscribe</p>
                 
-                 <form>
-                    <div class="footer-form-footer">
+                 <form class="footer-form-footer" >
+                    <div class="footer-form-fo">
+                    <label class="footer-form-labl" for="form-useremail"></label>  
                     <input 
                     class="footer-form-email"
+                    id="form-useremail"
                     type="email" 
                     name="use_email"
                     placeholder="E-mail"
                     >
                     <div>
-                    <button class="footer-form-butn" type="submit">Subscribe
-                    <img  class="butn-icon" src="./images/send.svg" alt="send icon" width="24" height="20">
+                    <button class="footer-form-butn" type="submit"><span class="footer-form-subscribe">Subscribe</span>
+                    <!-- <img  class="butn-icon" src="./images/send.svg" alt="send icon" width="24" height="24"> -->
+                    <svg class="footer-form-butn" width="24" height="24">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
                     </button>
                     </div>
                     </div>
@@ -426,17 +431,8 @@
 
     <div class="backdrop">
         <div class="modal">
-            <button class="popup-close"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_907701_440)">
-                    <path
-                        d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z"
-                        fill="#2E2F42" />
-                </g>
-                <defs>
-                    <clipPath id="clip0_907701_440">
-                        <rect width="8" height="8" fill="white" />
-                    </clipPath>
-                </defs>
+            <button class="popup-close" type="submit"><svg class="popup-close-butn" width="8" height="8">
+                <use href="./images/icons.svg#icon-vector"></use>
             </svg></button>
             <h3 class="popup-logo">Leave your contacts and we will call you back</h3>
             <form>
@@ -450,15 +446,15 @@
                 </div>    
                 <label class="form-name" for="form-useremail">Email</label>
                 <div>
-                    <input class="form-name-link form-colr " type="email" name="form_useremail"id="form-useremail">
+                    <input class="form-name-link form-colr" type="email" name="form_useremail" id="form-useremail">
                 </div>
                 <label class="form-name" for="form-usercomment">Comment</label>
                 <div>
-                    <textarea class="form-name form-colr form-tarea" name="comment" name="form_usercomment"id="form-usercomment" placeholder="Text input"></textarea>
+                    <textarea class="form-name form-colr form-tarea" name="form_user" id="form-usercomment" placeholder="Text input"></textarea>
                 </div>
                 
                 <div>
-                    <input class="form-box form-name " type="checkbox" name="form_privacy" id="form-useremail">
+                    <input class="form-box form-name" type="checkbox" name="form_privacy">
                     <label for="form-useremail" class="form-text-text">I accept the terms and conditions of the <a href="#" class="form-text-form">Privacy Policy</a></label>
                 </div>
                 <button type="submit" class="form-butn">Send</button>
