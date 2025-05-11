@@ -603,10 +603,11 @@ input::placeholder {
 .popup-close-butn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.popup-close-butn-icon-icon:hover, 
-.popup-close-butn-icon-icon:focus {
+.popup-close:hover, 
+.popup-close:focus {
     fill: #ffffff;
 }
+
 
 .popup-logo { 
     font-weight: 500;
