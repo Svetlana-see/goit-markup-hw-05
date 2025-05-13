@@ -616,7 +616,6 @@ input::placeholder {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy);
-    padding-top: 72px;
     margin-bottom: 16px;
 }
 .form-field {
@@ -658,9 +657,7 @@ input::placeholder {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .form-input:has(input:hover) .form-input-icon {
-    fill: #4D5AE5;
-} */
+
 input:focus+svg {
     fill: #4D5AE5;
 }
@@ -693,7 +690,6 @@ input:focus+svg {
     border: 1px solid var(--navy);
 }
 .form-box-text {
-    /* font-weight: 400; */
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -733,6 +729,8 @@ input:focus+svg {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+    border-radius: 4px;
 }
 
 
